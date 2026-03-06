@@ -72,7 +72,7 @@ User → Power App → SharePoint → Power Automate → Internal Processing
 ![App Flow](./screenshots/02-powerapp-flow.png)
 
 ### Power Automate – Email Sent from Flow (Mocked)
-![Flow Email](./screenshots/03-email-from-flow.png)
+![Flow Email](./screenshots/03-email.png)
 
 ### SharePoint Vendor / Demand List (Mocked)
 ![SharePoint Mock](./screenshots/03-sharepoint-vendors-mock.png)
