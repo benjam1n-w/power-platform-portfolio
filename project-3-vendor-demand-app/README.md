@@ -62,7 +62,18 @@ most errors.
 ## Architecture Summary (High-Level)
 User → Power App → SharePoint → Power Automate → Internal Processing
 
-## Notes
-All app assets and screenshots are excluded from this repository as they are part
-of a restricted enterprise tenant. This folder contains only conceptual
-documentation.
+
+## Screenshots
+
+### Power App – Main View
+![App View](./screenshots/01-powerapp-view.png)
+
+### Power App – Submit Flow Trigger
+![App Flow](./screenshots/02-powerapp-flow.png)
+
+### Power Automate – Email Sent from Flow (Mocked)
+![Flow Email](./screenshots/03-email-from-flow.png)
+
+### SharePoint Vendor / Demand List (Mocked)
+![SharePoint Mock](./screenshots/03-sharepoint-vendors-mock.png)
+
