@@ -66,7 +66,7 @@ User → Power App → SharePoint → Power Automate → Internal Processing
 ## Screenshots
 
 ### Power App – Main View
-![App View](./screenshots/01-powerapp-view.png)
+![App View](./screenshots/01-powerapps-view.png)
 
 ### Power App – Submit Flow Trigger
 ![App Flow](./screenshots/02-powerapp-flow.png)
