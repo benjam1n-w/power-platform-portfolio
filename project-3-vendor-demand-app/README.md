@@ -1,5 +1,5 @@
 
-# Project 3 — Vendor Demand Submission Power App (Concept Documentation)
+# Project 3 — Vendor Demand Submission Power App
 
 ## Overview
 This project is a Power Apps + Power Automate solution designed to streamline
