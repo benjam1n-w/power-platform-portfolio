@@ -1,19 +1,24 @@
-# Smart Email Routing & Approval Flow
+# Smart Email Routing 
 
 # Problem
 Recruiters received candidate profiles via email and had to manually identify the correct hiring manager by checking an Excel demand tracker. This slowed down the process and created room for errors or missed profiles.
-Goal
-Automate the routing of candidate emails so that each profile is instantly forwarded to the correct hiring manager based on the Competency and Role.
-Solution
-A Power Automate flow that triggers on incoming emails, extracts the Competency and Role from the subject line, matches them to active demands in an Excel file, and automatically forwards the candidate email to the assigned manager.
-Design Decisions
 
-Use the standardized email subject format:
+# Goal
+
+Automate the routing of candidate emails so that each profile is instantly forwarded to the correct hiring manager based on the Competency and Role.
+
+# Solution
+
+A Power Automate flow that triggers on incoming emails, extracts the Competency and Role from the subject line, matches them to active demands in an Excel file, and automatically forwards the candidate email to the assigned manager.
+
+# Design Decisions
+
+- Use the standardized email subject format:
 Competency | Role | Name | Rate | Availability | Vendor
-Extract only the first two components (Competency + Role), which uniquely identify the demand.
-Reconstruct a CompetencyRole key matching the Excel table structure.
-Filter Excel rows only with Open or Pending approval/creation status to avoid routing to inactive roles.
-Forward the email using the ManagerEmail column from the matched row.
+- Extract only the first two components (Competency + Role), which uniquely identify the demand.
+- Reconstruct a CompetencyRole key matching the Excel table structure.
+- Filter Excel rows only with Open or Pending approval/creation status to avoid routing to inactive roles.
+- Forward the email using the ManagerEmail column from the matched row.
 
 # Tools Used
 
