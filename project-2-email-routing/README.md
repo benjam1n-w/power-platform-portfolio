@@ -35,6 +35,6 @@ Improved overall speed and reliability of candidate handling
 ## Workflow Overview
 
 ### Screenshot of the Flow
-![Flow Overview](screenshots/project2_email_routing_flow.png)
+![Flow Overview](screenshots/email_routing_flow.png)
 
 
