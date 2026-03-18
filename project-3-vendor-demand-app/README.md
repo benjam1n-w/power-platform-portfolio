@@ -69,7 +69,7 @@ User → Power App → SharePoint → Power Automate → Internal Processing
 ![App View](./screenshots/01-powerapps-view.png)
 
 ### Power App –  Flow 
-![App Flow](./screenshots/02-powerapp-flow.png)
+![App Flow](./screenshots/02-powerapps-flow.png)
 
 ### Power Automate – Email Sent from Flow
 ![Flow Email](./screenshots/03-email.png)
