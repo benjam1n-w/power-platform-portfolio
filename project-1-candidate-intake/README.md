@@ -1,4 +1,4 @@
-# Automated Candidate Intake Pipeline
+# Candidate Intake Automation
 
 ## Problem
 
