@@ -2,7 +2,7 @@
 
 ## Problem
 
-Vendor emails containing candidate information had to be manually reviewed and copied into Excel. This process was time-consuming and prone to human error.
+Vendor emails containing candidate information had to be manually reviewed and copied into an Excel tracker. This process was time-consuming and prone to human error.
 
 ## Goal
 
@@ -14,7 +14,7 @@ I built a Power Automate workflow that:
 
 - Detects incoming vendor emails automatically
 - Extracts structured candidate information from email content
-- Transfers the data directly into an Excel spreadsheet
+- Transfers the data directly into the Excel tracker
 - Standardizes the data entry format
 - Eliminates the need for manual copying
 
