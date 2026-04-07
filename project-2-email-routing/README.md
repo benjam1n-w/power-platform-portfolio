@@ -1,11 +1,11 @@
 # Smart Email Routing 
 
 # Problem
-Recruiters received candidate profiles via email and had to manually identify the correct hiring manager by checking an Excel demand tracker. This slowed down the process and created room for errors or missed profiles.
+Candidate profiles are received via email and must be sent manually to the correct hiring manager. This slowed down the process and created room for errors or missed profiles.
 
 # Goal
 
-Automate the routing of candidate emails so that each profile is instantly forwarded to the correct hiring manager based on the Competency and Role.
+Automate the routing of candidate emails so that each profile is instantly forwarded to the correct hiring manager.
 
 # Solution
 
