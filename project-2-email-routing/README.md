@@ -1,4 +1,4 @@
-# Smart Email Routing 
+# Smart E-mail Routing System
 
 # Problem
 Candidate profiles are received via email and must be sent manually to the correct hiring manager. This slowed down the process and created room for errors or missed profiles.
