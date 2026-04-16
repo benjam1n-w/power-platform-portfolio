@@ -37,12 +37,10 @@ workflow.
 Before this solution, demand requests had to be emailed manually to up to **15 vendors**
 for every case. This caused several operational issues:
 
-- **High risk of human error** — requesters copied details manually for every vendor,
-  which often led to mistakes or missing information.
+- **Manual data assembly** — requesters had to gather vendor lists, copy details from multiple sources, and assemble emails by hand, increasing cognitive load and the chance of omissions.
 - **Inconsistent communication** — each requester wrote emails differently, and
   important fields were sometimes forgotten.
-- **Time‑consuming workflow** — sending many separate emails for every demand took
-  several minutes per case.
+- **Lack of structured data** — demand information existed only as free‑text emails, making it difficult to reuse, validate, or process the data reliably in downstream processes.
 - **No standardization** — vendors received slightly different versions of the same
   message depending on who sent it.
 
