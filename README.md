@@ -60,6 +60,10 @@ human errors.
 
 ## About Me
 
+
 I build practical, scalable solutions that reduce repetitive tasks and make business
-processes more reliable through automation and low-code applications.
+processes more reliable through automation and low-code applications.  
+I also focus on leveraging AI capabilities within the Power Platform to create
+more intelligent and user-friendly automation solutions.
+
 
