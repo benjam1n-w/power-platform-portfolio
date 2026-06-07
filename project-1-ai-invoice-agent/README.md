@@ -70,4 +70,9 @@ The design reflects a realistic enterprise scenario, showcasing how conversation
 
 ## Workflow overview
 
+The following screenshots illustrate the end-to-end process from user interaction to backend workflow execution.
+
+### 1. Agent Interaction
+![Agent interaction showing invoice input and confirmation](./screenshots/agent_chat.png)
+
 
