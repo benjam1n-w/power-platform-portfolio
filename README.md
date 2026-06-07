@@ -31,7 +31,7 @@ users to process invoices through natural language interaction. The agent collec
 validates, and routes invoice data, automatically approving low-value transactions
 and triggering approval workflows for high-value invoices.
 
-➡️ See project details: `/project-4-ai-invoice-processing-agent`
+➡️ See project details: `/project-1-ai-invoice-processing-agent`
 
 
 ### **2. Candidate Intake Automation**
