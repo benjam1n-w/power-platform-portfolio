@@ -76,3 +76,13 @@ The following screenshots illustrate the end-to-end process from user interactio
 ![Agent interaction showing invoice input and confirmation](./screenshots/agent_chat.png)
 
 
+### 2. Flow Processing and Approval Logic
+![Power Automate flow with validation, branching, and approval](./screenshots/flow_overview.png)
+
+
+### 3. Approval Request (Email)
+![Email with request for approval for processing of the invoice](./screenshots/email_approval.png)
+
+
+
+
