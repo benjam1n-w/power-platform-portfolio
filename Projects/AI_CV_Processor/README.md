@@ -1,4 +1,4 @@
-# AI CV Parsing & Candidate Intake Automation
+# AI CV Processor
 
 ## Problem
 
