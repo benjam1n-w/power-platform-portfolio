@@ -48,21 +48,21 @@ PNG format was used for training data to improve extraction consistency and avoi
 ### 1. Email Trigger
 Incoming emails with CV attachments trigger the flow automatically.
 
-./Projects/AI_CV_Processor/docs/screen_1.png
+![CV Processing](./Projects/AI_CV_Processor/docs/screen_1.png)
 
 ---
 
 ### 2. AI Extraction
 AI Builder processes the CV and extracts structured candidate data.
 
-./Projects/AI_CV_Processor/docs/screen_2.png
+![CV Processing](./Projects/AI_CV_Processor/docs/screen_2.png)
 
 ---
 
 ### 3. Data Storage
 Extracted data is stored in Dataverse for further processing and analysis.
 
-./Projects/AI_CV_Processor/docs/screen_3.png
+![CV Processing](./Projects/AI_CV_Processor/docs/screen_3.png)
 
 ---
 
