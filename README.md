@@ -1,69 +1,74 @@
-
 # Power Platform Portfolio
 
-This repository showcases real-world solutions built using Microsoft Power Platform,
-including **Copilot Studio (AI Agents)**, **Power Apps**, **Power Automate**, and **SharePoint**.  
-Each project is presented as a case study with a clear problem definition,
-solution design, and measurable business impact.
+This repository showcases real-world solutions built using Microsoft Power Platform, combining **automation**, **application development**, and **AI capabilities**.  
+
+Each project reflects a practical business scenario, focusing on reducing manual work, improving data consistency, and introducing scalable automation patterns.
 
 ---
 
-## Skills
+## Featured Projects
 
-- Copilot Studio (AI agent development)
-- AI-powered process automation
+A selection of solutions demonstrating automation, application development, and AI integration within the Power Platform ecosystem.
+
+| Project | Description | Tech Stack |
+|--------|------------|-----------|
+| [AI Invoice Agent](./Projects/AI_Invoice_Agent) | AI-powered invoice processing solution with natural language input, validation, and approval workflows for high-value transactions | Copilot Studio, Power Automate, Dataverse |
+| [AI CV Processor](./Projects/AI_CV_Processor) | Automated CV parsing system that extracts candidate data from documents using AI Builder and stores structured data for recruitment workflows | AI Builder, Power Automate, Dataverse |
+| [Recruit App](./Projects/Recruit_App) | Power App for structured vendor demand submission with automated backend processing and centralized data storage | Power Apps, SharePoint, Power Automate |
+| [Candidate Automation](./Projects/Candidate_Automation) | Workflow that extracts candidate information from emails and logs structured data automatically | Power Automate, Outlook, Excel |
+| [Email Routing](./Projects/Email_Routing) | Rule-based email routing system that directs incoming vendor messages to the appropriate stakeholders | Power Automate, Outlook |
+
+---
+
+## Core Skills
+
 - Power Apps (Canvas)
 - Power Automate workflow development
-- SharePoint list architecture
+- AI Builder (custom document models)
+- Copilot Studio (AI agents)
+- Dataverse data modeling
+- SharePoint integration
 - Process automation and optimization
-- Data transformation and integration
-- Business process analysis
-- Error handling and exception‑safe flow design
+- Data extraction from unstructured inputs
+- Error handling and robust flow design
 
 ---
 
-## Projects
+## What This Portfolio Demonstrates
 
-
-### **1. AI Invoice Processing Agent**
-An AI-powered solution built with Copilot Studio and Power Automate that enables
-users to process invoices through natural language interaction. The agent collects,
-validates, and routes invoice data, automatically approving low-value transactions
-and triggering approval workflows for high-value invoices.
-
-➡️ See project details: `/project-1-ai-invoice-processing-agent`
-
-
-### **2. Candidate Intake Automation**
-A workflow that extracts candidate information from vendor emails and logs it into
-Excel automatically, reducing manual data entry and ensuring consistency.
-
-➡️ See project details: `/project-1-candidate-intake`
+- ✅ End-to-end automation design  
+- ✅ Integration of AI into business processes  
+- ✅ Handling structured and unstructured data  
+- ✅ Real-world problem solving  
+- ✅ Scalable and maintainable solutions  
 
 ---
 
-### **3. Smart E-mail Routing System**
-A workflow that routes incoming vendor messages to the correct manager based on
-rules, removing the need for manual triage and improving response times.
+## Approach
 
-➡️ See project details: `/project-2-email-routing`
+Each solution in this repository follows a consistent approach:
 
-### **4. Vendor Demand Management Solution**
-A Power App used to submit structured vendor demands, store them in SharePoint,
-and trigger an internal automated process via Power Automate.  
-Standardizes submissions, reduces manual repetition, and eliminates common
-human errors.
-
-➡️ See project details: `/project-3-vendor-demand-app`
+1. **Problem identification** – real business need  
+2. **Solution design** – simple, scalable architecture  
+3. **Implementation** – Power Platform tools  
+4. **Impact** – measurable improvement  
 
 ---
 
 ## About Me
 
+I build practical, scalable solutions that eliminate repetitive manual work and improve business process reliability through automation and low-code technologies.
 
-I build practical, scalable solutions that reduce repetitive tasks and make business
-processes more reliable through automation and low-code applications.  
-I also focus on leveraging AI capabilities within the Power Platform to create
-more intelligent and user-friendly automation solutions.
+I focus on combining **Power Platform tools with AI capabilities** to create intelligent, user-friendly systems that align with real business needs.
 
+---
 
+## How to Explore
+
+Each project is organized as a standalone case study inside the `/Projects` folder, including:
+
+- Problem and goal  
+- Solution design  
+- Workflow explanation  
+- Screenshots and examples  
+- Technical implementation details  
