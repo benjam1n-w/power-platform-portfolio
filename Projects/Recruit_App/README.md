@@ -64,10 +64,10 @@ User → Power App → SharePoint → Power Automate → Internal Processing
 ## Screenshots
 
 ### Power App – Main View
-![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Recruit_App/docs/01-powerapps-view.png.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Recruit_App/docs/01-powerapps-view.png)
 
 ### Power App –  Flow 
-![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Recruit_App/docs/02-powerapps-flow.png.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Recruit_App/docs/02-powerapps-flow.png)
 
 ### Power Automate – Email Sent from Flow
 ![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Recruit_App/docs/03-email.png)
