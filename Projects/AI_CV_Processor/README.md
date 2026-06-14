@@ -54,7 +54,7 @@ Incoming emails with CV attachments trigger the flow automatically.
 
 ### 2. AI Extraction
 AI Builder processes the CV and extracts structured candidate data.
-
+![CV Processing](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/AI_CV_Processor/docs/CV_test.png)
 ![CV Processing](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/AI_CV_Processor/docs/screen_2.png)
 
 ---
