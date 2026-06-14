@@ -44,5 +44,7 @@ Beyond time savings, the automation improved data consistency, reduced human err
 
 ## Workflow Overview
 
-![AI_Invoice_Agent](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Candidate_Automation/docs/screen_flow1.png)
+### Incoming Email
+![AI_Invoice_Agent](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Candidate_Automation/docs/mail_recco.png)
+
 ![AI_Invoice_Agent](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Candidate_Automation/docs/screen_flow2.png)
