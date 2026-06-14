@@ -84,8 +84,7 @@ Extracted data is stored in Dataverse for further processing and analysis.
 | AI processing          | AI Builder (Custom Document Model)  |
 | Automation             | Power Automate                      |
 | Data storage           | Microsoft Dataverse                 |
-| Input source           | Outlook Email (V3 trigger)          |
-| Data format            | PNG images (CVs)                    |
+| Input source           | Outlook Email (V3 trigger)          |                  
 | Platform               | Power Platform                      |
 
 ---
