@@ -1,4 +1,4 @@
-# Candidate Intake Automation
+# Candidate Automation
 
 ## Problem
 
@@ -44,5 +44,5 @@ Beyond time savings, the automation improved data consistency, reduced human err
 
 ## Workflow Overview
 
-![Power Automate Flow Overview](screenshots/screen_flow1.png)
-![Power Automate Flow Overview – Part 2](screenshots/screen_flow2.png)
+![AI_Invoice_Agent](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Candidate_Automation/docs/screen_flow1.png)
+![AI_Invoice_Agent](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Candidate_Automation/docs/screen_flow2.png)
