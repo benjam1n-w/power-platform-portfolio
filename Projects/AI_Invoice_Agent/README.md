@@ -73,14 +73,14 @@ The design reflects a realistic enterprise scenario, showcasing how conversation
 The following screenshots illustrate the end-to-end process from user interaction to backend workflow execution.
 
 ### 1. Agent Interaction
-![AI_Invoice_Agent](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/AI_Invoice_Agent/docs/Agent_chat.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/AI_Invoice_Agent/docs/Agent_chat.png)
 
 
 ### 2. Flow Processing and Approval Logic
-![AI_Invoice_Agent](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/AI_Invoice_Agent/docs/flow_overview.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/AI_Invoice_Agent/docs/flow_overview.png)
 
 ### 3. Approval Request (Email)
-![AI_Invoice_Agent](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/AI_Invoice_Agent/docs/email_approval.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/AI_Invoice_Agent/docs/email_approval.png)
 
 
 
