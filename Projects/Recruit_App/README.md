@@ -64,14 +64,14 @@ User → Power App → SharePoint → Power Automate → Internal Processing
 ## Screenshots
 
 ### Power App – Main View
-![App View](./screenshots/01-powerapps-view.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Recruit_Appn/docs/01-powerapps-view.png.png)
 
 ### Power App –  Flow 
-![App Flow](./screenshots/02-powerapps-flow.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Recruit_Appn/docs/02-powerapps-flow.png.png)
 
 ### Power Automate – Email Sent from Flow
-![Flow Email](./screenshots/03-email.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Recruit_Appn/docs/03-email.png)
 
 ### SharePoint Vendor / Demand List (Mocked)
-![SharePoint Mock](./screenshots/03-sharepoint-vendors-mock.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Recruit_Appn/docs/03-sharepoint-vendors-mock.png)
 
