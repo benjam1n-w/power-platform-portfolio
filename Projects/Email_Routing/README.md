@@ -36,5 +36,5 @@ Improved overall speed and reliability of candidate handling
 
 ### Screenshot of the Flow
 
-![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Candidate_Automation/docs/rrouting_flow.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Email_Routing/docs/rrouting_flow.png)
 
