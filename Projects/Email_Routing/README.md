@@ -35,6 +35,6 @@ Improved overall speed and reliability of candidate handling
 ## Workflow Overview
 
 ### Screenshot of the Flow
-![Flow Overview](screenshots/email_routing_flow.png)
 
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Candidate_Automation/docs/rrouting_flow.png)
 
