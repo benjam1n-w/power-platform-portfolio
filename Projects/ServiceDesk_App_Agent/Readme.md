@@ -88,11 +88,7 @@ Entry point with navigation options:
 
 - Policies
 
- 
-
- 
-
- 
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Service_Desk_App_Agent/docs/homescreen.png)
 
 ---
 
@@ -114,7 +110,7 @@ Users can submit a ticket via a structured form including:
 
 Status is automatically assigned as: New
 
- 
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Service_Desk_App_Agent/docs/newticket.png)
 
 ---
 
@@ -136,10 +132,7 @@ Includes filtering options:
 
 - Status (dropdown)
 
-- Priority (dropdown)
-
-- Category (dropdown)
-
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Service_Desk_App_Agent/docs/mytickets.png)
  
 
 ---
@@ -157,6 +150,7 @@ The Copilot agent enables ticket creation using natural language.
 ### Example:
 
  
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Service_Desk_App_Agent/docs/agent.png)
 
  
 
@@ -194,7 +188,13 @@ The flow:
 
 4. Returns a confirmation message to the user
 
- 
+
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Service_Desk_App_Agent/docs/flow.png)
+
+New record added to the application:
+
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Service_Desk_App_Agent/docs/newticket_app.png)
+
 
 ---
 
@@ -220,7 +220,9 @@ The flow:
 
 | TicketID    | Text                 |
 
- 
+
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Service_Desk_App_Agent/docs/dataverse.png)
+
 
 ---
 
@@ -261,24 +263,6 @@ This solution demonstrates:
 - Automation of ticket creation and classification
 
 - Improved user experience through flexible input methods
-
- 
-
----
-
- 
-
-## Status
-
- 
-
-- Fully functional 
-
-- End-to-end system implemented 
-
-- AI agent integrated with backend workflow 
-
-- Ready for demo and portfolio use 
 
  
 
