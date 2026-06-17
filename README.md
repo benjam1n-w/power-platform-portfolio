@@ -14,6 +14,7 @@ A selection of solutions demonstrating automation, application development, and 
 |--------|------------|-----------|
 | [AI Invoice Agent](./Projects/AI_Invoice_Agent) | AI-powered invoice processing solution with natural language input, validation, and approval workflows for high-value transactions | Copilot Studio, Power Automate, Dataverse |
 | [AI CV Processor](./Projects/AI_CV_Processor) | Automated CV parsing system that extracts candidate data from documents using AI Builder and stores structured data for recruitment workflows | AI Builder, Power Automate, Dataverse |
+| [Service Desk App + Agent](./Projects/ServiceDesk_App_Agent) | AI-powered service desk solution combining a Power Apps ticketing interface with a Copilot Studio agent for creating and managing support requests through natural language conversations | Power Apps, Copilot Studio, Power Automate, Dataverse |
 | [Recruit App](./Projects/Recruit_App) | Power App for structured vendor demand submission with automated backend processing and centralized data storage | Power Apps, SharePoint, Power Automate |
 | [Candidate Automation](./Projects/Candidate_Automation) | Workflow that extracts candidate information from emails and logs structured data automatically | Power Automate, Outlook, Excel |
 | [Email Routing](./Projects/Email_Routing) | Rule-based email routing system that directs incoming vendor messages to the appropriate stakeholders | Power Automate, Outlook |
