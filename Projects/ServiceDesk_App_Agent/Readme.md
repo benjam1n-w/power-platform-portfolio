@@ -132,9 +132,7 @@ Displays user-specific tickets with:
 
 - Ticket ID
 
-- Priority
-
-- Status
+- Title
 
  
 
