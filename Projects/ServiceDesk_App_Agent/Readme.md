@@ -88,7 +88,7 @@ Entry point with navigation options:
 
 - Policies
 
-![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Service_Desk_App_Agent/docs/homescreen.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/homescreen.png)
 
 ---
 
@@ -110,7 +110,7 @@ Users can submit a ticket via a structured form including:
 
 Status is automatically assigned as: New
 
-![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Service_Desk_App_Agent/docs/newticket.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/newticket.png)
 
 ---
 
@@ -132,7 +132,7 @@ Includes filtering options:
 
 - Status (dropdown)
 
-![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Service_Desk_App_Agent/docs/mytickets.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/mytickets.png)
  
 
 ---
@@ -150,7 +150,7 @@ The Copilot agent enables ticket creation using natural language.
 ### Example:
 
  
-![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Service_Desk_App_Agent/docs/agent.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/agent.png)
 
  
 
@@ -189,11 +189,11 @@ The flow:
 4. Returns a confirmation message to the user
 
 
-![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Service_Desk_App_Agent/docs/flow.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/flow.png)
 
 New record added to the application:
 
-![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Service_Desk_App_Agent/docs/newticket_app.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/newticket_app.png)
 
 
 ---
@@ -221,7 +221,7 @@ New record added to the application:
 | TicketID    | Text                 |
 
 
-![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/Service_Desk_App_Agent/docs/dataverse.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/dataverse.png)
 
 
 ---
