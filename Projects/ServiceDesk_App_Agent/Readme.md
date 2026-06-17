@@ -50,9 +50,19 @@ The system allows users to:
 
 - Create tickets through an AI agent using conversational input
 
- 
-
 ---
+
+## Tech Stack
+
+
+| Component      | Technology                |
+|----------------|---------------------------|
+| Application UI | Power Apps (Canvas)       |
+| Automation     | Power Automate            |
+| AI Agent       | Copilot Studio            |
+| Data Storage   | Dataverse                 |
+| Data Logic     | Choice columns + mapping  |
+| Integration    | Agent → Flow → Dataverse  |
 
  
 
@@ -204,21 +214,14 @@ New record added to the application:
 
  
 
-| Field        | Type                  |
-
-|-------------|----------------------|
-
-| Title       | Text (Primary column)|
-
-| Description | Text                 |
-
-| Category    | Choice               |
-
-| Priority    | Choice               |
-
-| Status      | Choice               |
-
-| TicketID    | Text                 |
+| Field       | Type                  |
+|-------------|-----------------------|
+| Title       | Text (Primary column) |
+| Description | Text                  |
+| Category    | Choice                |
+| Priority    | Choice                |
+| Status      | Choice                |
+| TicketID    | Text                  |
 
 
 ![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/dataverse.png)
@@ -266,26 +269,3 @@ This solution demonstrates:
 
  
 
----
-
- 
-
-## Tech Stack
-
- 
-
-| Component        | Technology                     |
-
-|----------------|-------------------------------|
-
-| Application UI | Power Apps (Canvas)           |
-
-| Automation     | Power Automate                |
-
-| AI Agent       | Copilot Studio                |
-
-| Data Storage   | Dataverse                     |
-
-| Data Logic     | Choice columns + mapping      |
-
-| Integration    | Agent → Flow → Dataverse      |
