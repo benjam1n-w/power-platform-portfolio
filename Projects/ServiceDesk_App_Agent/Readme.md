@@ -132,7 +132,7 @@ Includes:
 
 - Deletion option with confirmation pop up
 
-![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/ticket delete.jpg)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/ticketdelete.jpg)
 
 
 ---
