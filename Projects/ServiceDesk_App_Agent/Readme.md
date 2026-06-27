@@ -87,7 +87,7 @@ Additional UX:
 - Confirmation notification after submission
 - Contextual navigation to "My Tickets"
 
-![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/newticket.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/newticket.jpg)
 
 ---
 
@@ -107,7 +107,7 @@ Features:
 - Combined filtering and search
 - Visual column layout with headers and separators
 
-![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/mytickets.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/mytickets.jpg)
 
 ---
 
@@ -118,12 +118,22 @@ Detailed view of a selected ticket:
 - Full ticket information
 - Read-only core fields
 - Controlled interaction model
+  
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/ticket_details.jpg)
+
 
 Includes:
 
 - Add Comment functionality (on-demand input)
 - Single-comment restriction per ticket
 - Input validation and length limitation
+
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/addcomment.jpg)
+
+- Deletion option with confirmation pop up
+
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/ticket_delete.jpg)
+
 
 ---
 
@@ -133,7 +143,7 @@ The Copilot agent enables ticket creation through natural language.
 
 ### Example
 
-![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/agent.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/agent.jpg)
 
 The agent:
 
@@ -153,11 +163,11 @@ The flow performs:
 3. Creates a new ticket record
 4. Returns confirmation with Ticket ID
 
-![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/flow.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/flow.jpg)
 
 Created record:
 
-![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/newticket_app.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/ticketfromagent.jpg)
 
 ---
 
@@ -172,7 +182,7 @@ Created record:
 | Status | Choice |
 | TicketID | Text |
 
-![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/dataverse.png)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/dataverse.jpg)
 
 ---
 
