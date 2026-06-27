@@ -119,7 +119,7 @@ Detailed view of a selected ticket:
 - Read-only core fields
 - Controlled interaction model
   
-![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/ticket_details.jpg)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/ticketdetails.jpg)
 
 
 Includes:
