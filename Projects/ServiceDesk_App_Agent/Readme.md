@@ -1,269 +1,198 @@
-# Service Desk Application + Agent
-
- 
+# Service Desk Application + AI Agent
 
 ## Problem
 
- 
-
-IT support teams often rely on manual ticket intake processes where users must fill out structured forms to report issues. This approach can be slow, inconsistent, and dependent on users correctly categorizing and prioritizing their requests.
-
- 
+IT support teams often rely on manual ticket intake processes where users must fill out structured forms to report issues. This approach is time-consuming, inconsistent, and depends on users correctly categorizing and prioritizing their requests.
 
 ---
-
- 
 
 ## Goal
 
- 
-
-Build an intelligent service desk system that allows users to create support tickets either through a structured application or using natural language, while ensuring consistent categorization and prioritization.
-
- 
+Build an intelligent service desk system that enables users to create support tickets either through a structured application or via natural language, while maintaining consistent categorization and prioritization.
 
 ---
 
- 
-
 ## Solution
 
- 
+An end-to-end service desk solution built using Microsoft Power Platform, combining:
 
-I built an end-to-end service desk solution using Microsoft Power Platform that combines:
-
- 
-
-- A **Power Apps interface** for structured ticket submission and management
-
-- A **Copilot Studio agent** for natural language ticket creation
-
-- A **Power Automate workflow** to process and create tickets in Dataverse
-
- 
+- **Power Apps (Canvas)** for ticket creation and management
+- **Copilot Studio** for natural language interaction
+- **Power Automate** for backend processing
+- **Dataverse** for structured data storage
 
 The system allows users to:
 
-- Submit tickets manually via a form
-
-- View and filter their existing tickets
-
-- Create tickets through an AI agent using conversational input
+- Submit tickets via a structured form
+- View and filter their tickets
+- Create tickets using conversational AI
 
 ---
 
 ## Tech Stack
 
-
-| Component      | Technology                |
+| Component | Technology |
 |----------------|---------------------------|
-| Application UI | Power Apps (Canvas)       |
-| Automation     | Power Automate            |
-| AI Agent       | Copilot Studio            |
-| Data Storage   | Dataverse                 |
-| Data Logic     | Choice columns + mapping  |
-| Integration    | Agent → Flow → Dataverse  |
+| Application UI | Power Apps (Canvas) |
+| Automation | Power Automate |
+| AI Agent | Copilot Studio |
+| Data Storage | Dataverse |
+| Data Logic | Choice columns + mapping |
+| Integration | Agent → Flow → Dataverse |
 
- 
+---
 
 ## Key Features
 
- 
-
-- 🧾 Ticket creation via **Power App form**
-
+- 🧾 Ticket creation via **Power Apps form**
 - 🤖 Ticket creation via **AI agent (natural language)**
-
-- 📊 Ticket dashboard with filtering (Status, Priority, Category)
-
-- 🆔 Auto-assigned Ticket IDs
-
-- ⚙️ Backend automation with Power Automate
-
-- 🗄️ Centralized data storage in Dataverse
-
- 
+- 🔍 Full-text search across multiple ticket fields
+- 🎛️ Advanced filtering (Status, Priority, Category)
+- 📊 Table-style ticket dashboard
+- 🆔 Ticket ID tracking
+- 💬 Controlled comment system
+- 🗑️ Safe deletion with confirmation popup
+- ⚙️ Automated backend processing
+- 🗄️ Structured data storage in Dataverse
 
 ---
 
- 
+## Application Screens
 
 ### 1. Home Screen
 
-Entry point with navigation options:
+Navigation hub with:
 
 - New Ticket
-
 - My Tickets
-
 - Policies
 
-![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/homescreen.png)
+https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/homescreen.png
 
 ---
 
- 
-
 ### 2. New Ticket Screen
 
-Users can submit a ticket via a structured form including:
+Structured ticket submission form:
 
 - Title
-
 - Description
-
 - Category
-
 - Priority
 
- 
+Status is assigned automatically: New
 
-Status is automatically assigned as: New
+Additional UX:
+
+- Confirmation notification after submission
+- Contextual navigation to "My Tickets"
 
 ![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/newticket.png)
 
 ---
 
- 
-
 ### 3. My Tickets Screen
 
-Displays user-specific tickets with:
-
-- Ticket ID
+Structured table-style view displaying:
 
 - Title
+- Ticket ID
+- Priority
+- Status
 
- 
+Features:
 
-Includes filtering options:
-
-- Status (dropdown)
+- Full-text search (Title, Description, ID, fields)
+- Status-based filtering
+- Combined filtering and search
+- Visual column layout with headers and separators
 
 ![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/mytickets.png)
- 
 
 ---
 
- 
+### 4. Ticket Details Screen
+
+Detailed view of a selected ticket:
+
+- Full ticket information
+- Read-only core fields
+- Controlled interaction model
+
+Includes:
+
+- Add Comment functionality (on-demand input)
+- Single-comment restriction per ticket
+- Input validation and length limitation
+
+---
 
 ## AI Agent Functionality
 
- 
+The Copilot agent enables ticket creation through natural language.
 
-The Copilot agent enables ticket creation using natural language.
+### Example
 
- 
-
-### Example:
-
- 
 ![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/agent.png)
-
- 
 
 The agent:
 
-- extracts relevant information 
-
-- asks follow-up questions if needed 
-
-- calls a Power Automate flow 
-
-- creates tickets automatically
-
- 
-
- 
+- extracts relevant data from user input
+- asks follow-up questions when needed
+- maps input into structured fields
+- triggers ticket creation via Power Automate
 
 ---
-
- 
 
 ## Workflow (Power Automate)
 
- 
+The flow performs:
 
-The flow:
-
- 
-
-1. Receives data from the agent
-
-2. Maps text inputs to Dataverse **Choice fields**
-
+1. Receives input from the agent
+2. Maps text to Dataverse Choice values
 3. Creates a new ticket record
-
-4. Returns a confirmation message to the user
-
+4. Returns confirmation with Ticket ID
 
 ![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/flow.png)
 
-New record added to the application:
+Created record:
 
 ![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/newticket_app.png)
 
-
 ---
-
- 
 
 ## Data Model (Dataverse)
 
- 
-
-| Field       | Type                  |
+| Field | Type |
 |-------------|-----------------------|
-| Title       | Text (Primary column) |
-| Description | Text                  |
-| Category    | Choice                |
-| Priority    | Choice                |
-| Status      | Choice                |
-| TicketID    | Text                  |
-
+| Title | Text (Primary column) |
+| Description | Text |
+| Category | Choice |
+| Priority | Choice |
+| Status | Choice |
+| TicketID | Text |
 
 ![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/dataverse.png)
 
-
 ---
-
- 
 
 ## Design Decisions
 
- 
-
-- **Choice columns** used for Category, Priority, and Status to enforce consistency 
-
-- **Status hidden from users** and assigned automatically 
-
-- **Agent used as alternative input method**, not a replacement for forms 
-
-- **Mapping logic implemented in flow** to handle Dataverse choice values 
-
-- **Dropdown filters added** for usability in the ticket dashboard 
-
- 
+- Use of **Choice columns** for standardized classification
+- **Status controlled by system**, not user-editable
+- **Limited editing model** to ensure data integrity
+- **Comment-based interaction** instead of full record editing
+- **Table-style UI layout** for better readability
+- **Search + filter combination** for efficient navigation
+- **Confirmation-based deletion** to prevent data loss
 
 ---
 
- 
-
 ## Impact
-
- 
 
 This solution demonstrates:
 
- 
-
-- Integration of **AI agents with business applications**
-
+- Integration of **AI with business applications**
 - Handling of both **structured and unstructured input**
-
-- Automation of ticket creation and classification
-
-- Improved user experience through flexible input methods
-
- 
-
+- Transition from form-based systems to **intelligent workflows**
+- Strong focus on **UX, data integrity, and real-world constraints**  
