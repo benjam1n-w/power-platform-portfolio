@@ -87,7 +87,7 @@ Additional UX:
 - Confirmation notification after submission
 - Contextual navigation to "My Tickets"
 
-![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/newticket.jpg)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/createticket.jpg)
 
 ---
 
