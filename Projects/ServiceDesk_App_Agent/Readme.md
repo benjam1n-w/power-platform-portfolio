@@ -67,7 +67,7 @@ Navigation hub with:
 - My Tickets
 - Policies
 
-https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/homescreen.png
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/homescreen.jpg)
 
 ---
 
@@ -182,7 +182,7 @@ Created record:
 | Status | Choice |
 | TicketID | Text |
 
-![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/dataverse.jpg)
+![](https://raw.githubusercontent.com/benjam1n-w/power-platform-portfolio/main/Projects/ServiceDesk_App_Agent/docs/data.jpg)
 
 ---
 
